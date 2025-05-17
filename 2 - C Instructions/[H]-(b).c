@@ -1,4 +1,6 @@
 /* [H] - (b) */
+/* If a five-digit number is input through the keyboard. Write a program to 
+   reverse the number */
 
 #include<stdio.h>
 int main(){
@@ -15,4 +17,5 @@ int main(){
 	n5 = (inum / 10000)%10;
 	irev = n1*10000 + n2*1000 + n3*100 + n4*10 + n5 //Going to that Position by mutliplying with its position Value.
 	printf("\nEntered Number %d, Reversed Number %d",inum,irev);
+	reuturn 0;
 }
