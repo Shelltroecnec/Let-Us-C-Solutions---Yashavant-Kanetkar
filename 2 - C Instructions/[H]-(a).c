@@ -1,5 +1,8 @@
 /* [H] - (a) */
 
+/* If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits.
+	(Hint: Use the Modulus Operator '%') */
+
 #include<stdio.h>
 int main(){
 	int inum, n1, n2, n3, n4, n5, itotal;
