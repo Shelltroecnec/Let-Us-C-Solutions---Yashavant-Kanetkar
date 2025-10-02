@@ -1,7 +1,15 @@
 /* [C] - (c) */
 
+/* If the marks obtained by a student in a five different subjets are input through the keyboard.
+	Write a program to find out the aggregate marks and percentage marks obtained by the student.
+	Assume that the maximum marks that can be obtained by a student in each subject is 100 */
+
+//Headers	
 #include<stdio.h>
+
 int main(){
+
+	//Local Declarations
 	float eng, hindi, marathi, socialS, math, fTotal, fPercentage;
 	
 	printf("\n\t ***MARKS & PERCENTAGE CALCULATOR***\n");
@@ -21,4 +29,6 @@ int main(){
 	//Calculating Percentage
 	fPercentage = fTotal/500*100;
 	printf("\n\nTotal Aggregate = %.2f\nPercentage = %.2f",fTotal,fPercentage);
+
+	return 0;
 }
