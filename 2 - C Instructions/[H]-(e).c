@@ -1,7 +1,15 @@
 /* [H] - (e) */
 
+/* If a five-digit number is input through the keyboard, write a program to print a new number 
+	by adding one to each of its digits. For example, if the number that is input is 12391, 
+	then the output should be displayed as 23502. */
+
+//Headers
 #include<stdio.h>
+
 int main(){
+
+	//Local declarations
 	int inum, itotal=0, n1, n2, n3, n4, n5;
 	
 	printf("\nEnter the Number :");
@@ -16,4 +24,6 @@ int main(){
 	//Going to the exact Posotion of number
 	itotal = n5*10000 + n4*1000 + n3*100 + n2*10 + n1;
 	printf("\nEntered Number= %d , New Number after adding 1 = %d",inum,itotal);
+
+	return 0;
 }
