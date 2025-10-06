@@ -19,7 +19,7 @@ int main(){
 	iSide=(s1+s2+s3)/2; // Adding All the Sides
 	iArea = sqrt(iSide*(iSide-s1)*(iSide-s2)*(iSide-s3)); //Formula
 	
-	printf("\nArea of the Entered Triangle = %0.2f",iArea);
+	printf("\nArea of the Entered Triangle = %0.2f\r\n",iArea);
 
 	return 0;
 }

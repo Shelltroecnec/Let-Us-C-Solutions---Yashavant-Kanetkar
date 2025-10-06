@@ -25,9 +25,9 @@ int main(){
 	fSum = (pow(sin(fr_angle),2) + pow(cos(fr_angle),2));
 	
 	if(fSum==1)
-		printf("\nSum of Square of Sin(%.2f) and cos(%.2f) is equal to 1",fangle,fangle);
+		printf("\nSum of Square of Sin(%.2f) and cos(%.2f) is equal to 1\r\n",fangle,fangle);
 	else
-		printf("\nNot Equal to 1");
+		printf("\nNot Equal to 1\r\n");
 
 	return 0;
 }

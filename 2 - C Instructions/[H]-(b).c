@@ -21,7 +21,7 @@ int main(){
 	n4 = (inum / 1000)%10;
 	n5 = (inum / 10000)%10;
 	irev = n1*10000 + n2*1000 + n3*100 + n4*10 + n5; //Going to that Position by mutliplying with its position Value.
-	printf("\nEntered Number %d, Reversed Number %d",inum,irev);
+	printf("\nEntered Number %d, Reversed Number %d\r\n",inum,irev);
 	
 	return 0;
 }

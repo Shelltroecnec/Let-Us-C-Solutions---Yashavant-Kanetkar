@@ -26,12 +26,12 @@ int main(){
 	
 	//Formula to find r
 	fR = sqrt(pow(iX,2)+pow(iY,2));
-	printf("\nr=%.2f",fR);
+	printf("\nr=%.2f\r\n",fR);
 	
 	//Calulation to find theta
 	fTheta = atan2(iY,iX);
 	fTheta = fTheta * 180/pi;
-	printf("\nTheta=%.2f",fTheta);
+	printf("\nTheta=%.2f\r\n",fTheta);
 
 	return 0;
 }

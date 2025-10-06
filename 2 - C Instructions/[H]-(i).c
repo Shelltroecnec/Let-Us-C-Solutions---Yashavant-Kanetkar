@@ -32,7 +32,7 @@ int main(){
 	
 	//Calculating the Distance
 	fDistance = 3963 * acos(sin(lat1)*sin(lat2) + cos(lat1)*cos(lat2)*cos(lon2-lon1));
-	printf("\nDistance in Nautical Miles = %f",fDistance);
+	printf("\nDistance in Nautical Miles = %f\r\n",fDistance);
 
 	return 0;
 }

@@ -21,8 +21,8 @@ int main(){
 	
 	//Formula to Calulate Wind Chill Factor
 	fwcf = 35.74 + 0.6215*ftemp + (0.42751*ftemp-35.75)*pow(fvelocity,0.16);
-	printf("\nFor the Air Temperature(%f) & Air Velocity(%f)",ftemp,fvelocity);
-	printf("\nThe Wind Chill Factor =%f",fwcf);
+	printf("\nFor the Air Temperature(%f) & Air Velocity(%f)\r\n",ftemp,fvelocity);
+	printf("\nThe Wind Chill Factor =%f\r\n",fwcf);
 
 	return 0;
 }

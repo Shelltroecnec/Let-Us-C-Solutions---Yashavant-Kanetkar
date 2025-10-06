@@ -22,7 +22,7 @@ int main(){
 	n5 = (inum / 10000)%10;
 	printf("%d,%d,%d,%d,%d",n1,n2,n3,n4,n5);
 	itotal = n1+n2+n3+n4+n5;
-	printf("\nTotal of %d Number = %d",inum,itotal);
+	printf("\nTotal of %d Number = %d\r\n",inum,itotal);
 
 	return 0;
 }

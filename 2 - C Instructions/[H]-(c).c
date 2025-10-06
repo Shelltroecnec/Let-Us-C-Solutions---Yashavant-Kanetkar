@@ -20,7 +20,7 @@ int main(){
 	n4 = (inum / 1000)%10;
 	
 	//Adding the First and Last Digits
-	printf("\nFirst Digit=%d, Last Digit=%d\nSum = %d",n4,n1,n4+n1);
+	printf("\nFirst Digit=%d, Last Digit=%d\nSum = %d\r\n",n4,n1,n4+n1);
 	
 	return 0;
 }
