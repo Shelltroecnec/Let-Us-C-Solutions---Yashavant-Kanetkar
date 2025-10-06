@@ -18,7 +18,7 @@ int main(){
 	temp = C;
 	C = D;
 	D = temp;
-	printf("\n C=%d and D= %d",C,D);
+	printf("\n C=%d and D= %d\r\n",C,D);
 
 	return 0;
 }

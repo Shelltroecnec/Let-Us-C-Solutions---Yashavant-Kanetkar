@@ -20,7 +20,7 @@ int main(){
 	fcentimeter = feet * 30.48;
 	printf("\n\nEntered Kms = %.2f",km);
 	printf("\nHence the Distance Between Two Cities, as follows below.\n");
-	printf("\nMeters = %.2f\nFeet = %.2f\nInches = %.2f\nCentimeters = %.2f",fmeter,feet,finches,fcentimeter);
+	printf("\nMeters = %.2f\nFeet = %.2f\nInches = %.2f\nCentimeters = %.2f\r\n",fmeter,feet,finches,fcentimeter);
 
 	return 0;
 }

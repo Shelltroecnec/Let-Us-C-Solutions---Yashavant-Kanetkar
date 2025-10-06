@@ -17,6 +17,6 @@ int main(){
 	f_allowance = (fbasic_sal/100)*40;
 	f_house = (fbasic_sal/100)*20;
 	fgross_sal = fbasic_sal + f_allowance + f_house;
-	printf("\nGross Salary :Rs %.2f",fgross_sal);
+	printf("\nGross Salary :Rs %.2f\r\n",fgross_sal);
 	return 0;
 }

@@ -16,7 +16,7 @@ int main(){
 	scanf("%f",&farhenheit);
 	//Convertion formula
 	fcelsius = ((farhenheit-32)*5)/9;
-	printf("\nTemperature in Celsius : %.2f^C",fcelsius);
+	printf("\nTemperature in Celsius : %.2f^C\r\n",fcelsius);
 
 	return 0;
 }

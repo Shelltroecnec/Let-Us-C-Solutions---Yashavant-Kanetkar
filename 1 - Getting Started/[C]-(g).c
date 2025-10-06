@@ -16,7 +16,7 @@ int main(){
 	printf("\nEnter the Profit :");
 	scanf("%f",&profit);
 	cp = sp - profit;
-	printf("\nCost price = %.2f",cp);
+	printf("\nCost price = %.2f\r\n",cp);
 
 	return 0;
 }

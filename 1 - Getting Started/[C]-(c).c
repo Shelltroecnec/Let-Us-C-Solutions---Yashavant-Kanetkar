@@ -28,7 +28,7 @@ int main(){
 	fTotal = eng+hindi+marathi+socialS+math;
 	//Calculating Percentage
 	fPercentage = fTotal/500*100;
-	printf("\n\nTotal Aggregate = %.2f\nPercentage = %.2f",fTotal,fPercentage);
+	printf("\n\nTotal Aggregate = %.2f\nPercentage = %.2f\r\n",fTotal,fPercentage);
 
 	return 0;
 }
