@@ -1,5 +1,6 @@
 /* [C] - (b) */
 
+
 #include<stdio.h>
 int main(){
 	int inum;
