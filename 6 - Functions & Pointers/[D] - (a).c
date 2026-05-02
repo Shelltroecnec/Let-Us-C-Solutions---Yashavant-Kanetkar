@@ -1,22 +1,27 @@
 /* [D] - (a) */
 
+/* Write a function to calculate the factorial value of any integer entered through the keyboard */
+
 #include<stdio.h>
 
 int factorialOfNum(int);
-int inum=0, fact=1;
 
 int main()
 {
-	printf("Enter the Number :");
+	int inum=0;
+	printf("Enter the Number : ");
 	scanf("%d",&inum);
-	printf("\nFactorial of %d = %d",inum,factorialOfNum(inum));
+	printf("\nFactorial of %d = %d\r\n", inum, factorialOfNum(inum));
 }
 
 int factorialOfNum(int iNumber)
 {
+	int fact = 1;
+
 	while(iNumber != 0)
 	{
 		fact = fact * iNumber;
 		iNumber--;
 	}
+	return fact;
 }
