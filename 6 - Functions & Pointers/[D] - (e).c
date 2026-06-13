@@ -1,7 +1,7 @@
 /* [D] - (e) */
 
 /* A Positive integer is entered through the keyboard. Write a function to obtain the prime factors of this number
-   Example : Prime factors of 24 are 2, 2, 2 and 3. whereas prime factors of 35 are 5 and 7. */
+   Example : Prime factors of 24 are 2, 2, 2 and 3. where as prime factors of 35 are 5 and 7. */
 
 #include <stdio.h>
 
@@ -49,21 +49,13 @@ The prime factors are 2, 2, 3, and 5. Written as a product: 2 x 2 x 3 x 5 = 60.
 */
 void PrimeFactorCalfn(int num)
 {
-    int i, count2=0, count3 = 0;
+    int count = 2;
 
-    for (i = 0; num % 2 == 0; i++)
-    {
-        num = num / 2;
-        count2++;
-    }
-
-    for (i = 0; (num % 2 != 0 ) && (num <= 9); i++)
-    {
-        num = num / 3;
-        count3++;
-    }
-
-    num = num / 5;
-
-    printf("Prime factors of num %d are %d, %d\r\n", num, count2, count3);
+    if(num == 1)
+        return;
+    while(num % count != 0)
+        count++;
+    printf("%d ",count);
+    PrimeFactorCalfn(num / count);
+    printf("\n");
 }
